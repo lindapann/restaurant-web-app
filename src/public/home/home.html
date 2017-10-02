@@ -1,0 +1,22 @@
+<div id="main-content" class="container">
+  <div class="jumbotron">
+    <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+  </div>
+  <div id="home-tiles" class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.menu"><div id="menu-tile"><span>menu</span></div></a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a ui-sref="public.menuitems({category: 'SP'})">
+        <div id="specials-tile"><span>specials</span></div>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <a href="https://www.google.ca/maps/place/University+of+Waterloo/@43.4722893,-80.5470463,17z/data=!3m1!4b1!4m5!3m4!1s0x882bf6ad02edccff:0xdd9df23996268e17!8m2!3d43.4722854!4d-80.5448576" target="_blank">
+        <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9024.362113639005!2d-80.54715983298155!3d43.471143863657545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf6ad02edccff%3A0xdd9df23996268e17!2sUniversity+of+Waterloo!5e0!3m2!1sen!2sca!4v1506955419694" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>          <span>map</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
