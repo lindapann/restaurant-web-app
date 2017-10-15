@@ -1,9 +1,15 @@
-# Restaurant
+# Restaurant Web App
 
-Restaurant front-end implementation in AngularJS for David Chu's China Bistro.
+This restaurant web application is the final assignment in course [Single Page Web Applications with AngularJS] on Coursera.
 
-Enroll in the [complete free course on AngularJS][aeac87f1]
-  [aeac87f1]: https://www.coursera.org/learn/single-page-web-apps-with-angularjs "AngularJS course"
+It is a restaurant front-end implementation in AngularJS for David Chu's China Bistro.
 
-  [Single Page Web Applications with AngularJS][39804538]
-  [39804538]: https://www.coursera.org/learn/single-page-web-apps-with-angularjs "Enroll in the course on AngluarJS"
+Here are what I did for the project:
+
+1. Create user-friendly menu categories using data on the server side
+
+2. Build a sign-up validation form
+
+3. Show users information after their signning up
+
+4. Test code using Jasmine
